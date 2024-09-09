@@ -114,9 +114,10 @@
                         text-decoration:line-through;
                         position: relative;
                         &::before{
-                            content: '☑️';
+                            content: '✔';
                             position: absolute;
                             background-color: #785dc8;
+                            color: white;
                             border: none;
                             width: 20px;
                             height: 20px;
